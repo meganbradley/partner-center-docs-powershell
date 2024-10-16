@@ -25,7 +25,7 @@ Gets a collection resource that contains a list of services within a customer's 
 
 ### Example 1
 ```powershell
-PS C:\> Get-PartnerCustomerSubscriptionUsage -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -SubscriptionId '9ed730f0-882a-4c15-b4bc-7bb84da69835'
+PS C:\> Get-PartnerCustomerSubscriptionUsage -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -SubscriptionId 'aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e'
 ```
 
 Gets a collection resource that contains a list of services within a customer's subscription and their associated rated usage information.

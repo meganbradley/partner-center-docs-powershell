@@ -29,7 +29,7 @@ This cmdlet creates a new application consent for the specified customer.
 PS C:\> $grant = New-Object -TypeName Microsoft.Store.PartnerCenter.Models.ApplicationConsents.ApplicationGrant
 PS C:\> $grant.EnterpriseApplicationId = '00000002-0000-0000-c000-000000000000'
 PS C:\> $grant.Scope = "Domain.ReadWrite.All,User.ReadWrite.All,Directory.Read.All"
-PS C:\> New-PartnerCustomerApplicationConsent -ApplicationId 'c33c2273-9329-42ec-948d-152ead47cf65' -ApplicationGrants @($grant) -CustomerId 'f1c5e45f-7dea-4863-a55d-b5a5479201df' -DisplayName 'CPV Web App'
+PS C:\> New-PartnerCustomerApplicationConsent -ApplicationId '00001111-aaaa-2222-bbbb-3333cccc4444' -ApplicationGrants @($grant) -CustomerId '11112222-bbbb-3333-cccc-4444dddd5555' -DisplayName 'CPV Web App'
 ```
 
 Creates a new application consent for the specified customer.
