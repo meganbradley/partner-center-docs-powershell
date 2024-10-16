@@ -26,14 +26,14 @@ Gets the sign-in activities for the specified user.
 
 ### Example 1
 ```powershell
-PS C:\> Get-PartnerUserSignInActivity -UserId '3dd89389-b34c-4f5a-975d-516df5694d7e'
+PS C:\> Get-PartnerUserSignInActivity -UserId '00aa00aa-bb11-cc22-dd33-44ee44ee44ee'
 ```
 
 Gets the sign-in activities for the specified user.
 
 ### Example 2
 ```powershell
-PS C:\> Get-PartnerUserSignInActivity -StartDate (Get-Date).AddDays(-7) -UserId '3dd89389-b34c-4f5a-975d-516df5694d7e'
+PS C:\> Get-PartnerUserSignInActivity -StartDate (Get-Date).AddDays(-7) -UserId '00aa00aa-bb11-cc22-dd33-44ee44ee44ee'
 ```
 
 Gets the sign-in activities from the past seven days for the specified user.
@@ -51,7 +51,7 @@ Gets the sign-in activities from the past seven days that have successfully auth
 ```powershell
 PS C:> $users = Get-PartnerUser
 PS C:> $activities = $users.ForEach({Get-PartnerUserSignInActivity -EndDate (Get-Date) -StartDate (Get-Date).AddDays(-7) -UserId $_.Id})
-PS C:> $activities | ? {$_.AuthenticationDetails | ? {$_.Succeeded -eq $true}} | ? {$_.ResourceId -eq 'fa3d9a0c-3fb0-42cc-9193-47c7ecd2edbd'}
+PS C:> $activities | ? {$_.AuthenticationDetails | ? {$_.Succeeded -eq $true}} | ? {$_.ResourceId -eq 'a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1'}
 ```
 
 Gets the sign-in activities from the past seven days where the resource being accessed was the Partner Center API.
@@ -69,7 +69,7 @@ Gets the sign-in activities from the past seven days that have successfully auth
 ```powershell
 PS C:> $users = Get-PartnerUser
 PS C:> $activities = $users.ForEach({Get-PartnerUserSignInActivity -EndDate (Get-Date) -StartDate (Get-Date).AddDays(-7) -UserId $_.Id})
-PS C:> $activities | ? {$_.AuthenticationDetails | ? {$_.Succeeded -eq $true}} | ? {$_.MfaDetail -eq $null} | ? {$_.ResourceId -eq 'fa3d9a0c-3fb0-42cc-9193-47c7ecd2edbd'}
+PS C:> $activities | ? {$_.AuthenticationDetails | ? {$_.Succeeded -eq $true}} | ? {$_.MfaDetail -eq $null} | ? {$_.ResourceId -eq 'a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1'}
 ```
 
 Gets the sign-in activities from the past seven days where the resource being accessed was the Partner Center API and the sign-in activity was not challenged for multi-factor authentication.

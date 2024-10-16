@@ -25,7 +25,7 @@ Gets a list of trial conversions available for the specified subscription.
 
 ### Example 1
 ```powershell
-PS C:\> Get-PartnerCustomerTrialConversion -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -SubscriptionId 4eaffa18-12f6-441e-b16d-cc9f4a90cfb8
+PS C:\> Get-PartnerCustomerTrialConversion -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -SubscriptionId aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e
 ```
 
 Gets a list of trial conversions available for the specified subscription.
