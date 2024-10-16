@@ -25,7 +25,7 @@ Gets an Azure Plan's subscription entitlements.
 
 ### Example 1
 ```powershell
-PS C:\> Get-PartnerCustomerAzurePlanEntitlement -CustomerId '78ca6954-7016-4248-be6d-7ce4315a9431' -SubscriptionId '3c94c76e-ab23-49f1-b1a7-6959599f48cd'
+PS C:\> Get-PartnerCustomerAzurePlanEntitlement -CustomerId '78ca6954-7016-4248-be6d-7ce4315a9431' -SubscriptionId 'aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e'
 ```
 
 Gets an Azure Plan's subscription entitlements.
