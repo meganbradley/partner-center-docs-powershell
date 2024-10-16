@@ -26,7 +26,7 @@ Updates an Azure subscription that is part of an Azure Plan.
 
 ### Example 1
 ```powershell
-PS C:\> Set-PartnerAzureSubscription -SubscriptionId 'fcfa52d0-c092-42e1-af3f-eb6d63197513' -SubscriptionName 'Microsoft Azure'
+PS C:\> Set-PartnerAzureSubscription -SubscriptionId 'aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e' -SubscriptionName 'Microsoft Azure'
 ```
 
 Updates the display name for the specified Azure subscription.

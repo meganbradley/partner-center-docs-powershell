@@ -36,7 +36,7 @@ The Set-PartnerCustomerUser cmdlet modifies a customer user account.
 ### Example 1
 
 ```powershell
-PS C:\> Set-PartnerCustomerUser -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -UserId a9ef48bb-8758-4590-a312-d4a47bfaded4 -LastName 'Sullivan'
+PS C:\> Set-PartnerCustomerUser -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -UserId 00aa00aa-bb11-cc22-dd33-44ee44ee44ee -LastName 'Sullivan'
 ```
 
 Modify the user's last name
@@ -46,7 +46,7 @@ Modify the user's last name
 ```powershell
 $password = '<Password>'
 PS C:\>$passwordSecure = $password | ConvertTo-SecureString -AsPlainText -Force
-PS C:\>Set-PartnerCustomerUser -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -UserId a9ef48bb-8758-4590-a312-d4a47bfaded4 -Password $passwordSecure -ForceChangePassword $true
+PS C:\>Set-PartnerCustomerUser -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -UserId 00aa00aa-bb11-cc22-dd33-44ee44ee44ee -Password $passwordSecure -ForceChangePassword $true
 ```
 
 Set the password for the user account and require the user to change the password during the next sign on.
