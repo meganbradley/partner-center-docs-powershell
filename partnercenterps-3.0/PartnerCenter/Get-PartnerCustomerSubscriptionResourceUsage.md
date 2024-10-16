@@ -25,7 +25,7 @@ Gets the subscription's resource usage records.
 
 ### Example 1
 ```powershell
-PS C:\> Get-PartnerCustomerSubscriptionResourceUsage -CustomerId '87045e4b-ab69-4a8f-875a-af020b383bc6' -SubscriptionId 'd2a89f2d-1aa1-4f09-bc62-cefd8d0a005c'
+PS C:\> Get-PartnerCustomerSubscriptionResourceUsage -CustomerId '87045e4b-ab69-4a8f-875a-af020b383bc6' -SubscriptionId 'aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e'
 ```
 
 Gets the subscription's resource usage records.

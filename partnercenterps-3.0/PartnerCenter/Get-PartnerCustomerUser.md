@@ -48,7 +48,7 @@ Gets a list of all active users for the specified customer identifier.
 
 ### Example 2
 ```powershell
-PS C:\> Get-PartnerCustomerUser -CustomerId 45916f92-e9c3-4ed2-b8c2-d87aa129905f -UserId e2e56b09-aac5-4685-947d-29e735ee7ed7
+PS C:\> Get-PartnerCustomerUser -CustomerId 45916f92-e9c3-4ed2-b8c2-d87aa129905f -UserId 00aa00aa-bb11-cc22-dd33-44ee44ee44ee
 ```
 
 Gets information for the specified user.
