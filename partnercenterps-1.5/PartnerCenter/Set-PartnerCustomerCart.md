@@ -33,7 +33,7 @@ PS C:\> # Configure the appropriate properties for the line item.
 PS C:\> $lineItem.BillingCycle = 'OneTime'
 PS C:\> $lineItem.CatalogItemId = 'DG7GMGF0DWTL:0001:DG7GMGF0DSJB'
 PS C:\> $lineItem.FriendlyName = 'My Purchase'
-PS C:\> $lineItem.ProvisioningContext =  @{duration='1Year'; scope='shared'; subscriptionId='b35d5324-df8e-4306-9023-6edac2d4896c'}
+PS C:\> $lineItem.ProvisioningContext =  @{duration='1Year'; scope='shared'; subscriptionId='aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e'}
 PS C:\> $lineItem.Quantity 10
 PS C:\>
 PS C:\> # Update the cart; this operation will replace the existing line items.

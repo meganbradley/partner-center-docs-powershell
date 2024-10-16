@@ -33,7 +33,7 @@ PS C:\> $lineItem.CatalogItemId = 'DG7GMGF0DWTL:0001:DG7GMGF0DSJB'
 PS C:\> $lineItem.FriendlyName = 'Sample RI Purchase'
 PS C:\> $lineItem.ProvisioningContext.Add('duration', '1Year')
 PS C:\> $lineItem.ProvisioningContext.Add('scope', 'shared')
-PS C:\> $lineItem.ProvisioningContext.Add('subscriptionId', 'D526EF3A-35E6-477F-A64C-906F6177FBFA')
+PS C:\> $lineItem.ProvisioningContext.Add('subscriptionId', 'aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e')
 PS C:\> $lineItem.Quantity = 10
 PS C:\>
 PS C:\> New-PartnerCustomerCart -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -LineItems $lineItem

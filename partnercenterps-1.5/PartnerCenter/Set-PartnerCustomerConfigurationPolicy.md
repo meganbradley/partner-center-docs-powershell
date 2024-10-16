@@ -31,10 +31,10 @@ The Set-PartnerCustomerConfigurationPolicy cmdlet will update an existing config
 ### Example 1
 
 ```powershell
-PS C:\> Set-PartnerCustomerConfigurationPolicy -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -PolicyId 2975afbf-4859-4d56-9f8d-e86996db92dd -Name "Updated Policy Name"
+PS C:\> Set-PartnerCustomerConfigurationPolicy -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -PolicyId 1aaaaaa1-2bb2-3cc3-4dd4-5eeeeeeeeee5 -Name "Updated Policy Name"
 ```
 
-Updates the existing configuration policy with the identifier of 2975afbf-4859-4d56-9f8d-e86996db92dd with a new name of "Updated Policy Name" 
+Updates the existing configuration policy with the identifier of 1aaaaaa1-2bb2-3cc3-4dd4-5eeeeeeeeee5 with a new name of "Updated Policy Name" 
 
 ## PARAMETERS
 
