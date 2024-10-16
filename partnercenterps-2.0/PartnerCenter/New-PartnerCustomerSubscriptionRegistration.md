@@ -26,7 +26,7 @@ Registers the specified subscription, so that is eligible to purcahse Azure rese
 
 ### Example 1
 ```powershell
-PS C:\> New-PartnerCustomerSubscriptionRegistration -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -SubscriptionId 'b2f26801-2849-4fb1-8815-ad5fcd81143d'
+PS C:\> New-PartnerCustomerSubscriptionRegistration -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -SubscriptionId 'aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e'
 ```
 
 Registers the specified subscription.
