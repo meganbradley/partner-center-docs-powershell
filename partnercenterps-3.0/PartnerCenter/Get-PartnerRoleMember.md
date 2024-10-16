@@ -25,7 +25,7 @@ Gets the members of the specified partner role.
 
 ### Example 1
 ```powershell
-PS C:\> Get-PartnerRole -RoleId 'a654330a-cea1-4f76-9641-8195bdd795d3'
+PS C:\> Get-PartnerRole -RoleId '00000000-0000-0000-0000-000000000000'
 ```
 
 Gets the members of the specified role.
