@@ -25,7 +25,7 @@ Gets the subscription's meter usage records.
 
 ### Example 1
 ```powershell
-PS C:\> Get-PartnerCustomerSubscriptionMeterUsage -CustomerId 'aafb0edb-d0e1-4221-8862-1609fccac9b4' -SubscriptionId 'ed7b62ca-7440-4c4c-8f5d-b898258932d5'
+PS C:\> Get-PartnerCustomerSubscriptionMeterUsage -CustomerId 'aafb0edb-d0e1-4221-8862-1609fccac9b4' -SubscriptionId 'aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e'
 ```
 
 Gets the subscription's meter usage records.

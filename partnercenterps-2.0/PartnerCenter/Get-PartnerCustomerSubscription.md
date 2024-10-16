@@ -50,7 +50,7 @@ Gets a list of subscriptions for the specified customer.
 
 ### Example 2
 ```powershell
-PS C:\> Get-PartnerCustomerSubscription -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -SubscriptionId a2138cdf-769e-45d3-b957-ae9864b82bf6
+PS C:\> Get-PartnerCustomerSubscription -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -SubscriptionId aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e
 ```
 
 Gets the specified customer subscription.

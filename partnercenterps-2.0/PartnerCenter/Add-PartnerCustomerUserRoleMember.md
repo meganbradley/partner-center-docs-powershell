@@ -26,10 +26,10 @@ The Add-PartnerCustomerUserRoleMember cmdlet adds a specified role to the target
 
 ### Example 1
 ```powershell
-PS C:\> Add-PartnerCustomerUserRoleMember -CustomerId c4f6bf3c-60de-432e-a3ec-20bcc5b26ec2 -UserId 17765f05-723c-4be4-89e2-c7d1cdbb0906 -RoleId 62e90394-69f5-4237-9190-012177145e10
+PS C:\> Add-PartnerCustomerUserRoleMember -CustomerId c4f6bf3c-60de-432e-a3ec-20bcc5b26ec2 -UserId 00aa00aa-bb11-cc22-dd33-44ee44ee44ee -RoleId 62e90394-69f5-4237-9190-012177145e10
 ```
 
-Adds the specified user with the identifier of 17765f05-723c-4be4-89e2-c7d1cdbb0906 to the role with the identifier of 62e90394-69f5-4237-9190-012177145e10.
+Adds the specified user with the identifier of 00aa00aa-bb11-cc22-dd33-44ee44ee44ee to the role with the identifier of 62e90394-69f5-4237-9190-012177145e10.
 
 ## PARAMETERS
 
