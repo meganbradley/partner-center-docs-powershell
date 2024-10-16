@@ -32,7 +32,7 @@ If you rather create a new application, then the following PowerShell script can
     .EXAMPLE
         .\Create-AzureADApplication.ps1 -ConfigurePreconsent -DisplayName "Partner Center Web App"
 
-        .\Create-AzureADApplication.ps1 -ConfigurePreconsent -DisplayName "Partner Center Web App" -TenantId eb210c1e-b697-4c06-b4e3-8b104c226b9a
+        .\Create-AzureADApplication.ps1 -ConfigurePreconsent -DisplayName "Partner Center Web App" -TenantId aaaabbbb-0000-cccc-1111-dddd2222eeee
 
         .\Create-AzureADApplication.ps1 -ConfigurePreconsent -DisplayName "Partner Center Web App" -TenantId tenant01.onmicrosoft.com
     .PARAMETER ConfigurePreconsent

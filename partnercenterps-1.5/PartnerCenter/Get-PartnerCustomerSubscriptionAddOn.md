@@ -25,7 +25,7 @@ Gets the purchased add-ons for the specified subscription.
 
 ### Example 1
 ```powershell
-PS C:\> Get-PartnerCustomerSubscriptionAddOn -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -SubscriptionId '775440e2-3a09-4685-bc9e-f1638955c41e'
+PS C:\> Get-PartnerCustomerSubscriptionAddOn -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -SubscriptionId 'aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e'
 ```
 
 Gets the add-ons for the specified subscription.
