@@ -48,7 +48,7 @@ Creates a new order for the specified services on behalf of the customer.
 ### Example 2
 
 ```powershell
-PS C:\> $s = Get-PartnerCustomerSubscription -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -SubscriptionId '10704f2f-3fc6-4e42-8acf-08df4f81c93c'
+PS C:\> $s = Get-PartnerCustomerSubscription -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -SubscriptionId 'aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e'
 PS C:\> $addOn = Get-PartnerOfferAddon -OfferId $s.OfferId | Where-Object {$_.Name -eq 'Microsoft MyAnalytics'}
 PS C:\>
 PS C:\> $lineItem = New-Object -TypeName Microsoft.Store.PartnerCenter.PowerShell.Models.Orders.PSOrderLineItem
