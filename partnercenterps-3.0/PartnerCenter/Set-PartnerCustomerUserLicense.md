@@ -37,7 +37,7 @@ PS C:\> # Add the license to the update statement.
 PS C:\> $licenses.LicensesToAssign.Add($license)
 PS C:\> 
 PS C:\> # Call the command to update the license assignment. 
-PS C:\> Set-PartnerCustomerUserLicense -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -LicenseUpdate $licenses -UserId '67e57a6a-6f26-4d6c-af64-533bb7f6a99e'
+PS C:\> Set-PartnerCustomerUserLicense -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -LicenseUpdate $licenses -UserId '00aa00aa-bb11-cc22-dd33-44ee44ee44ee'
 ```
 
 Adds or removes licenses for a Microsoft online service to the list of assigned licenses for a user. 

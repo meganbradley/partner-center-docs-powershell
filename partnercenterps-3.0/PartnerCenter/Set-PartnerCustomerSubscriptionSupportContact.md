@@ -26,7 +26,7 @@ Update a subscription's support contact to one of the partner's value added rese
 
 ### Example 1
 ```powershell
-PS C:\> Set-PartnerCustomerSubscriptionSupportContact -CustomerId 'e7e428c6-30b3-4301-b0d4-bb397d7d923d' -Name 'Value Add Reseller' -SubscriptionId '87e74b43-243f-4f0c-bbd8-b602f33b4ab1' -SupportMpnId '9999999' -SupportTenantId 'f6671752-4eec-4fec-a6ff-d05b35b8af07'
+PS C:\> Set-PartnerCustomerSubscriptionSupportContact -CustomerId 'e7e428c6-30b3-4301-b0d4-bb397d7d923d' -Name 'Value Add Reseller' -SubscriptionId 'aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e' -SupportMpnId '9999999' -SupportTenantId 'bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f'
 ```
 
 Update a subscription's support contact to one of the partner's value added resellers.
