@@ -27,7 +27,7 @@ Gets the provisioning status for the specified subscription.
 ### Example 1
 
 ```powershell
-PS C:\> Get-PartnerCustomerSubscriptionProvisioningStatus -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -SubscriptionId 9fccd1b5-ffc4-4e63-ba13-4689776c020e
+PS C:\> Get-PartnerCustomerSubscriptionProvisioningStatus -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -SubscriptionId aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e
 ```
 
 Gets the provisioning status for the specified subscription.

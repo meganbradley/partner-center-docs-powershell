@@ -26,28 +26,28 @@ Gets a list of licenses assigned to a user within a customer account.
 
 ### Example 1
 ```powershell
-PS C:\> Get-PartnerCustomerUserLicense -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -UserId 'd9be87b7-d838-4830-8d45-d18e8e71f3b2'
+PS C:\> Get-PartnerCustomerUserLicense -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -UserId '00aa00aa-bb11-cc22-dd33-44ee44ee44ee'
 ```
 
 Gets a list of licenses assigned to a user within a customer account.
 
 ### Example 2
 ```powershell
-PS C:\> Get-PartnerCustomerUserLicense -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -LicenseGroup Group1 -UserId 'd9be87b7-d838-4830-8d45-d18e8e71f3b2'
+PS C:\> Get-PartnerCustomerUserLicense -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -LicenseGroup Group1 -UserId '00aa00aa-bb11-cc22-dd33-44ee44ee44ee'
 ```
 
 Gets a list of Azure Active Directory (AAD) licenses assigned to a user within a customer account.
 
 ### Example 3
 ```powershell
-PS C:\> Get-PartnerCustomerUserLicense -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -LicenseGroup Group2 -UserId 'd9be87b7-d838-4830-8d45-d18e8e71f3b2'
+PS C:\> Get-PartnerCustomerUserLicense -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -LicenseGroup Group2 -UserId '00aa00aa-bb11-cc22-dd33-44ee44ee44ee'
 ```
 
 Gets a list of Minecraft licenses assigned to a user within a customer account.
 
 ### Example 4
 ```powershell
-PS C:\> Get-PartnerCustomerUserLicense -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -LicenseGroup Group1 -UserId 'd9be87b7-d838-4830-8d45-d18e8e71f3b2'
+PS C:\> Get-PartnerCustomerUserLicense -CustomerId '46a62ece-10ad-42e5-b3f1-b2ed53e6fc08' -LicenseGroup Group1 -UserId '00aa00aa-bb11-cc22-dd33-44ee44ee44ee'
 ```
 
 Gets a list of Azure Active Directory (AAD) and Minecraft licenses assigned to a user within a customer account.
