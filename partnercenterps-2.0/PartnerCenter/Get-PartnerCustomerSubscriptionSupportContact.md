@@ -26,7 +26,7 @@ Gets the support contact for the specified subscription.
 
 ### Example 1
 ```powershell
-PS C:\> Get-PartnerCustomerSubscriptionSupportContact -CustomerId 'f9893115-bda6-483a-89b1-a28e1aec23cb' -SubscriptionId '8b0b708a-07c7-48aa-bc51-adaa7b831a34'
+PS C:\> Get-PartnerCustomerSubscriptionSupportContact -CustomerId 'f9893115-bda6-483a-89b1-a28e1aec23cb' -SubscriptionId 'aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e'
 ```
 
 Gets the support contact for the specified subscription.
