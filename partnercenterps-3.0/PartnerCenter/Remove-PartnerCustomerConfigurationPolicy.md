@@ -28,10 +28,10 @@ The Remove-PartnerCustomerConfigurationPolicy removes the specified configuratio
 ### Example 1
 
 ```powershell
-PS C:\> Remove-PartnerCustomerConfigurationPolicy -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -PolicyId 2975afbf-4859-4d56-9f8d-e86996db92dd
+PS C:\> Remove-PartnerCustomerConfigurationPolicy -CustomerId 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08 -PolicyId 1aaaaaa1-2bb2-3cc3-4dd4-5eeeeeeeeee5
 ```
 
-Remove the configuration policy with the identifier of 2975afbf-4859-4d56-9f8d-e86996db92dd from the customer with the identifier of 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08.
+Remove the configuration policy with the identifier of 1aaaaaa1-2bb2-3cc3-4dd4-5eeeeeeeeee5 from the customer with the identifier of 46a62ece-10ad-42e5-b3f1-b2ed53e6fc08.
 
 ## PARAMETERS
 

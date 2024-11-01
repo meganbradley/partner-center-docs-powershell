@@ -26,21 +26,21 @@ Gets the sign-in activities for the specified user.
 
 ### Example 1
 ```powershell
-PS C:\> Get-PartnerUserSignInActivity -StartDate (Get-Date).AddDays(-7) -UserId '3dd89389-b34c-4f5a-975d-516df5694d7e'
+PS C:\> Get-PartnerUserSignInActivity -StartDate (Get-Date).AddDays(-7) -UserId '00aa00aa-bb11-cc22-dd33-44ee44ee44ee'
 ```
 
 Gets the sign-in activities from the past seven days for the specified user.
 
 ### Example 2
 ```powershell
-PS C:\> Get-PartnerUserSignInActivity -StartDate (Get-Date).AddDays(-7) -UserId '3dd89389-b34c-4f5a-975d-516df5694d7e' | ? {$_.AuthenticationDetails | ? {$_.Succeeded -eq $true}}
+PS C:\> Get-PartnerUserSignInActivity -StartDate (Get-Date).AddDays(-7) -UserId '00aa00aa-bb11-cc22-dd33-44ee44ee44ee' | ? {$_.AuthenticationDetails | ? {$_.Succeeded -eq $true}}
 ```
 
 Gets the successful sign-in activities from the past seven days for the specified user.
 
 ### Example 3
 ```powershell
-PS C:\> Get-PartnerUserSignInActivity -StartDate (Get-Date).AddDays(-7) -UserId '3dd89389-b34c-4f5a-975d-516df5694d7e' | ? {$_.AuthenticationDetails | ? {$_.Succeeded -eq $true}} | ? {$_.MfaDetail -eq $null}
+PS C:\> Get-PartnerUserSignInActivity -StartDate (Get-Date).AddDays(-7) -UserId '00aa00aa-bb11-cc22-dd33-44ee44ee44ee' | ? {$_.AuthenticationDetails | ? {$_.Succeeded -eq $true}} | ? {$_.MfaDetail -eq $null}
 ```
 
 Gets the successful sign-in activities from the past seven days for the specified user that were not challenged by multi-factor authentication.
@@ -55,7 +55,7 @@ Gets the successful sign-in activities all users from the past seven days in you
 ### Example 5
 ```powershell
 PS C:\> $signIns = Get-PartnerUserSignInActivity -StartDate (Get-Date).AddDays(-7)
-PS C:\> $signIns | ? {$_.AuthenticationDetails | ? {$_.Succeeded -eq $true}} | ? {$_.MfaDetail -eq $null} | ? {$_.ResourceId -eq 'fa3d9a0c-3fb0-42cc-9193-47c7ecd2edbd'}
+PS C:\> $signIns | ? {$_.AuthenticationDetails | ? {$_.Succeeded -eq $true}} | ? {$_.MfaDetail -eq $null} | ? {$_.ResourceId -eq 'a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1'}
 ```
 
 Gets the successful sign-in activities from the past seven days, where the resource being assessed was the Partner Center API and were not challenged by multi-factor authentication.
