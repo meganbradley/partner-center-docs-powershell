@@ -38,7 +38,7 @@ Gets the status of acceptance of the Microsoft Partner Agreement for the specifi
 
 ### Example 2
 ```powershell
-PS C:\> Get-PartnerAgreementStatus -TenantId 'd96a841d-1672-4175-a878-df65b98a8550'
+PS C:\> Get-PartnerAgreementStatus -TenantId 'aaaabbbb-0000-cccc-1111-dddd2222eeee'
 ```
 
 Gets the status of acceptance of the Microsoft Partner Agreement for the specified partner.

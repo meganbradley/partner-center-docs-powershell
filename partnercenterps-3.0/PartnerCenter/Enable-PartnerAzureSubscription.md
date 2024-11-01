@@ -25,7 +25,7 @@ Enables an Azure subscription that is part of an Azure Plan.
 
 ### Example 1
 ```powershell
-PS C:\> Enable-PartnerAzureSubscription -CustomerId 'bc79422f-ba9c-46ce-99bf-d747d4721466' -SubscriptionId '3bf8bf31-8410-4dd6-87ba-eef5fd56e32b'
+PS C:\> Enable-PartnerAzureSubscription -CustomerId 'bc79422f-ba9c-46ce-99bf-d747d4721466' -SubscriptionId 'aaaa0a0a-bb1b-cc2c-dd3d-eeeeee4e4e4e'
 ```
 
 Enables an Azure subscription that is part of an Azure Plan.
